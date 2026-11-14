@@ -107,7 +107,7 @@ function Footer() {
               <a
                 href="#facebook"
                 aria-label="Facebook"
-                className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-600 text-gray-200 transition hover:border-blue-500 hover:bg-blue-600 hover:text-white"
+                className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-600 text-gray-200 transition active:scale-95 active:border-blue-500 active:bg-blue-600 active:text-white hover:border-blue-500 hover:bg-blue-600 hover:text-white"
               >
                 <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor">
                   <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5Z" />
@@ -118,7 +118,7 @@ function Footer() {
               <a
                 href="#x"
                 aria-label="X"
-                className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-600 text-gray-200 transition hover:border-white hover:bg-white hover:text-gray-900"
+                className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-600 text-gray-200 transition active:scale-95 active:border-white active:bg-white active:text-gray-900 hover:border-white hover:bg-white hover:text-gray-900"
               >
                 <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
                   <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
@@ -129,7 +129,7 @@ function Footer() {
               <a
                 href="#youtube"
                 aria-label="YouTube"
-                className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-600 text-gray-200 transition hover:border-red-600 hover:bg-red-600 hover:text-white"
+                className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-600 text-gray-200 transition active:scale-95 active:border-red-600 active:bg-red-600 active:text-white hover:border-red-600 hover:bg-red-600 hover:text-white"
               >
                 <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor">
                   <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
@@ -140,7 +140,7 @@ function Footer() {
               <a
                 href="#instagram"
                 aria-label="Instagram"
-                className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-600 text-gray-200 transition hover:border-pink-500 hover:bg-pink-600 hover:text-white"
+                className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-600 text-gray-200 transition active:scale-95 active:border-pink-500 active:bg-pink-600 active:text-white hover:border-pink-500 hover:bg-pink-600 hover:text-white"
               >
                 <svg
                   viewBox="0 0 24 24"
