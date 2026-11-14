@@ -184,8 +184,8 @@ function Hero() {
                     <a
                       href="#products"
                       onPointerDown={(e) => e.stopPropagation()}
-                      className={`mt-4 inline-block cursor-pointer border border-white px-5 py-2 text-[11px] font-bold tracking-widest text-white uppercase hover:scale-105 hover:bg-white hover:text-gray-900 hover:shadow-md ${
-                        animate ? 'transition-all duration-500' : ''
+                      className={`relative z-20 mt-3 inline-flex items-center justify-center whitespace-nowrap rounded-xs border border-white/90 bg-white/15 px-3.5 py-2 text-[10px] font-bold tracking-widest text-white uppercase backdrop-blur-xs hover:scale-105 hover:bg-white hover:text-gray-900 active:scale-95 active:bg-white active:text-gray-900 sm:mt-4 sm:bg-transparent sm:px-5 sm:text-[11px] ${
+                        animate ? 'transition-all duration-300' : ''
                       } ${
                         active ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
                       }`}
