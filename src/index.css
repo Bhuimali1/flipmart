@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+@keyframes offerPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.offer-loop {
+  animation: offerPulse 1.6s ease-in-out infinite;
+}
